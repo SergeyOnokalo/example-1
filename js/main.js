@@ -76,7 +76,7 @@ function handleBoxClick(event){
   if(event.target.dataset.box){
     score++
     let time = parseFloat($time.textContent)
-    // $time.textContent = (time + 1.2).toFixed(1)
+    $time.textContent = (time + 1.2).toFixed(1)
     randerBox()
   } else{
     let time = parseFloat($time.textContent)
